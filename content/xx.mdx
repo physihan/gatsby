@@ -1,0 +1,37 @@
+---
+title: "bootstrapStudio 调研"
+---
+# bootstrapStudio 调研
+
+
+## 功能简介
+一款类似于 Dreaweaver 的建站工具，定位是静态页面简单页面生成，拖拽建站。可以自定义图标，支持 SEO 优化，支持 PWA 渐进式功能拓展。内部使用了 BootStrap 这个前端组件库，也大量使用了 JQuery 这个JS库。
+
+### 优点
+- 拖拽建站，操作简单
+- 支持响应式布局，支持代码打包导出
+- 样式统一美观，使用了 [bootstrap](https://www.bootcss.com/) 的 UI 样式
+- 有比较丰富的社区组件
+
+
+### 缺点
+- 适合简单的静态页面
+- 支持手动编写 Javascript 实现功能，想要实现复杂功能比较麻烦
+- 没办法使用前端构建工具去开发，后期维护成本比较高
+- 支持组件开发来实现组件复用，但是组件开发也是基于现有控件的组合，有很强的局限性
+- 基础版本收费 - 29美元永久
+
+## 总结
+功能比较单一，定制化比较强，适合简单页面、静态页面、数据不依赖后端接口的页面，基于这个的二次开发能力比较弱，和前端构建开发体系不太好融合，不是很推荐使用。
+
+## 相关推荐
+使用成熟的 UI 组件库开发可以提高前端的开发效率，这些组件库里面都有可以直接使用的组件和布局，样式也比较美观。
+- [ElementUI](https://element.eleme.io/#/zh-CN) 基于 Vue 的前端开发组件库，[设计原则地址](https://element.eleme.io/#/zh-CN/guide/design)
+- [Ant Design](https://ant.design/index-cn) 基于 React 的前端开发组件库，有比较统一的 [设计规范](https://ant.design/docs/spec/introduce-cn)
+- [Ant Design Vue](https://www.antdv.com/docs/vue/introduce-cn/) 是 Ant Design 组件库的 Vue 版本
+- [iView](http://v1.iviewui.com/docs/guide/introduce) 是一套基于 Vue.js 的开源 UI 组件库，主要服务于 PC 界面的中后台产品。
+
+除了前端开发组件库，还有一些拖拽建站和一站式模板方案
+- [umiJs](https://umijs.org/zh-CN/plugins/plugin-qiankun)基于Antd的前端开发框架，具有丰富的插件和模板，可以根据需要增加路由，数据流等等
+- [飞冰](https://ice.work/) 简单而友好的前端研发体系，有丰富的[模板](https://ice.work/scaffold)可供选择
+- [craft.js](https://github.com/prevwong/craft.js)构建自己的页面拖拽编辑器，可以自己开发组件，这些组件可以拖拽拼凑成一个页面
